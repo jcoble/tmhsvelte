@@ -1,0 +1,9 @@
+POST https://localhost:5001/api/hello HTTP/1.1
+Host: localhost:5001
+Content-Type: application/json
+
+
+GET https://api.fda.gov/drug/ndc.json?search=generic_name:HYDROCORTISONE&limit=20 HTTP/1.1
+Host: api.fda.gov
+Content-Type: application/json
+
